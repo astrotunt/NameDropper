@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.NameDropper" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Primary dark brand color for the status bar. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Secondary brand color for the app bar. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Colors for different parts of the UI-->
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Style for buttons -->
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+    </style>
+</resources>
+
+
+
+
+
